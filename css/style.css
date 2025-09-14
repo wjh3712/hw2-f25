@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, Verdana, sans-serif;
+    background-color: #000000;
+    color: #FFFFFF;
+    margin: 20px 20px 0 20px;
+}
+
+h1 {
+    font-size: 42px;
+    text-align: center;
+    padding: 15px;
+}
+
+h2 {
+    font-size: 24px;
+    color: #0D0D0D;
+}
+
+p {
+    font-size: 24px;
+    padding: 10px 0 0 10px;
+}
+
+img {
+    width: 250px;
+    display: block;              /* needed for margin auto centering */
+    margin: auto;
+    border: 10px dashed #FFFFFF;
+}
+
+div {
+    min-height: 125px;
+    padding: 20px;
+    border: 3px solid #FFFFFF;
+}
+
+.introduction {
+    border-radius: 15px;
+    margin-top: 15px;
+    line-height: 2;
+}
+
+.red {
+    background-color: #ff0000;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0 0 2px 5px;
+}
+
+.blue {
+    background-color: #0000ff;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0 0;
+    color: #C4C4C4;
+}
+
+.blue h2, 
+.blue p {
+    color: #C4C4C4;
+}
+
+.yellow {
+    background-color: #ffff00;
+    text-align: right;
+    margin-left: 50px;
+    border-width: 0 0 2px 5px;
+}
+
+.yellow p {
+    color: #707070;
+}
+
+.green {
+    background-color: #008500;
+    text-align: left;
+    margin-right: 50px;
+    border-width: 2px 5px 0 0;
+}
+
+footer {
+    background: linear-gradient(
+    to right, 
+    #000000 0%,     /* start black */
+    #0000FF 25%,    /* solid blue at 25% */
+    #0066FF 70%,    /* lighter blue at 70% */
+    #000000 100%    /* end back to black */
+  );
+  border: 5px solid #FFFFFF;
+}
+
+footer p {
+    font-size: 20px;
+    text-align: right;
+    padding: 15px 15px 15px 0;
+}
