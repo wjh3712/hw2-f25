@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Verdana, sans-serif;
+    font-family: Arial, Verdana;
     background-color: #000000;
     color: #FFFFFF;
     margin: 20px 20px 0 20px;
@@ -24,7 +24,8 @@ p {
 img {
     width: 250px;
     display: block;              /* needed for margin auto centering */
-    margin: auto;
+    margin-left: auto;
+    margin-right: auto;
     border: 10px dashed #FFFFFF;
 }
 
@@ -37,22 +38,27 @@ div {
 .introduction {
     border-radius: 15px;
     margin-top: 15px;
-    line-height: 2;
+    line-height: 2.0 em;
 }
 
 .red {
     background-color: #ff0000;
     text-align: right;
     margin-left: 50px;
-    border-width: 0 0 2px 5px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
 
 .blue {
     background-color: #0000ff;
     text-align: left;
     margin-right: 50px;
-    border-width: 2px 5px 0 0;
-    color: #C4C4C4;
+    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-bottom: none;
+    border-left: none;
 }
 
 .blue h2, 
@@ -64,7 +70,10 @@ div {
     background-color: #ffff00;
     text-align: right;
     margin-left: 50px;
-    border-width: 0 0 2px 5px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
 }
 
 .yellow p {
@@ -75,12 +84,16 @@ div {
     background-color: #008500;
     text-align: left;
     margin-right: 50px;
-    border-width: 2px 5px 0 0;
+    border-top: 2px solid #FFFFFF;
+    border-right: 5px solid #FFFFFF;
+    border-bottom: none;
+    border-left: none;
 }
 
 footer {
+    background: #000000;
     background: linear-gradient(
-    to right, 
+    90deg, 
     #000000 0%,     /* start black */
     #0000FF 25%,    /* solid blue at 25% */
     #0066FF 70%,    /* lighter blue at 70% */
